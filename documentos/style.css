@@ -30,6 +30,7 @@ body {
     border-radius: 8px;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: rgb(255, 36, 36);
+    box-shadow: 25px 25px 30px 15px rgb(5, 5, 5);
 
 } 
 
@@ -40,15 +41,15 @@ h4 {
 
 .card-image {
     padding-bottom: 10px;
-}
-
-p {
-    padding: 10px;
-}
-
-img {
+    background-image: url("../documentos/imgs/DBZ.jpg");
+    background-position: center center;
+    background-size: 340px 370px;
     width: 350px;
     height: 350px;
     border-radius: 8px;
     border: solid rgb(63, 63, 63);
+}
+
+p {
+    padding: 10px;
 }
